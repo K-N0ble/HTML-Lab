@@ -1,4 +1,8 @@
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -16,4 +20,3 @@ nav a {
     padding-bottom: 15px;
     text-decoration: none;
 }
-
