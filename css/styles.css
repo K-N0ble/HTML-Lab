@@ -20,3 +20,14 @@ nav a {
     padding-bottom: 15px;
     text-decoration: none;
 }
+
+footer {
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: right;
+}
