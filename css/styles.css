@@ -13,12 +13,12 @@ nav ul {
 }
 
 nav a {
-    border-radius: 3px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 17px;
     text-decoration: none;
+    background-color: rgb(255, 94, 94);
+    color: white;
 }
 
 
@@ -58,7 +58,7 @@ footer {
     justify-content: right;
 }
 
-h2 {
+section.feature-text h2 {
     font-family: "Kanit", serif;
     font-size: 70px;
     font-weight: 600;
@@ -75,7 +75,8 @@ section.feature-text {
     padding-bottom: 5em;
     padding-left: 5em;
     padding-top: 2em;
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(255, 170, 170);
+    
 }
 
 div.line1 {
