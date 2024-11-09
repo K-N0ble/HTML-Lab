@@ -6,10 +6,10 @@
 nav ul {
     display: flex;
     list-style: none;
-    justify-content: right;
+    justify-content: flex-end;
     margin: 0;
-    margin-right: 10em;
-    padding: 0;
+    margin-right: 5em;
+    padding-top: 30px;
 }
 
 nav a {
@@ -19,10 +19,6 @@ nav a {
     padding-top: 15px;
     padding-bottom: 15px;
     text-decoration: none;
-}
-
-section.container {
-    padding-bottom: 650px;
 }
 
 
@@ -54,10 +50,45 @@ tbody img {
 footer {
     font-size: 14px;
     color: white;
-    background-color: black;
+    background-color:black;
     padding-bottom: 1px;
     padding-top: 1px;
     padding-right: 10px;
     display: flex;
     justify-content: right;
 }
+
+h2 {
+    font-family: "Kanit", serif;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+section.feature-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-left: 5em;
+    margin-right: 7em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding-bottom: 5em;
+    padding-left: 5em;
+    padding-top: 2em;
+    background-color: rgb(205, 205, 205);
+}
+
+div.line1 {
+   margin-right: 10em;
+    max-height: 150px;
+}
+
+
+div.line2 {
+    max-height: 150px;
+}
+
+.profilepic figure {
+    box-shadow: 5px 5px black;
+}
+

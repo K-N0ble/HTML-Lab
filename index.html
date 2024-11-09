@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+        </style>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Kristen Noble</h1>
+       
         <!-- navigation bar -->
         <nav>
             <ul>
@@ -20,25 +23,25 @@
         </nav>
     </header>
 <main>
-    <div class="container">
-
-        <figure>
-            <!-- My profile picture -->
-            <img src="images/IMG_4863.JPG" alt="Image of a girl with long dark brown hair wearing a light gray hoodie" style="width:250px;">
-        </figure>
         <!-- Plan to have this heading as big feature text -->
-        <section>
-            <h2>
-                My name is Kristen Noble, <br>
-                I'm currently studying Web Development at SAIT
-            </h2>
+        <section class="feature-text">
+            <div class="line1"><h2>My name is Kristen Noble,</h2></div>
+            <div class="profilepic">
+                <figure>
+                <!-- My profile picture -->
+                <img src="images/IMG_4863.JPG" alt="Image of a girl with long dark brown hair wearing a light gray hoodie" style="max-width: 200px;">
+                </figure>
+            </div>
+            <div class="line2"><h2>I'm currently studying Web Development at SAIT</h2></div>
+         </section>
+        
             <p>
                 I chose to study web development because I enjoy both technology and design. <br>
                 I have studied a little bit of Python and Swift before I began learning HTML & CSS <br>
                 because I want to develop my own apps someday.
             </p>
             <br>
-        </section>
+        
 
     <!-- Smaller sections on main page-->
         <section>
@@ -68,8 +71,6 @@
             
             <br>
         </section>
-                   
-    </div>
     
 </main>
 
