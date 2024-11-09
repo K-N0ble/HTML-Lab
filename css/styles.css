@@ -22,29 +22,51 @@ nav a {
 }
 
 
-section.table {
-    padding-bottom: 50px;
+section.gallery img {
+    max-width: 540px;
 }
 
-table, td {
+section.gallery figure {
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 10px 10px rgb(143, 143, 143);
+}
+
+section.gallery figcaption {
+    margin: 10px;
+}
+
+section.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+section.table {
+    padding-bottom: 50px;
     border: 3px solid;
-    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+section.table td {
     margin: 10px;
     height: 320px;
 }
 
-th {
-    border: 3px solid;
+section.table th {
+    
     padding: 10px;
     font-size: 20px;
 }
 
-table {
+section.table {
     width: 99%;
 }
 
-tbody img {
-    max-width: 610px;
+section.table tbody img {
+    max-width: 550px;
 }
 
 footer {
@@ -75,21 +97,41 @@ section.feature-text {
     padding-bottom: 5em;
     padding-left: 5em;
     padding-top: 2em;
-    background-color: rgb(255, 170, 170);
+    background-color: rgb(255, 170, 170); 
     
 }
 
 div.line1 {
    margin-right: 10em;
-    max-height: 150px;
+    max-height: 100px;
 }
 
 
 div.line2 {
     max-height: 150px;
+    
 }
 
 .profilepic figure {
     box-shadow: 5px 5px black;
 }
 
+.indextable {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.indextable th {
+    table-layout: fixed;
+    width: 700px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+.indextable td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
