@@ -25,6 +25,23 @@ nav a {
     color: white;
 }
 
+nav a:hover {
+    background-color: rgb(255, 225, 225);
+    color: rgb(255, 94, 94);
+}
+
+/* Styling across multiple pages */
+header h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6vmin;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(255, 188, 188);
+    max-width: 46vmin;
+    padding: 5px;
+    margin-left: 2vw;
+}
+
 
 /* Home page styling */
 section.feature-text h2 {
@@ -86,11 +103,6 @@ div.line2 {
 }
 
 /* Projects Page */
-header h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 6vmin;
-    margin-top: 50px;
-}
 
 section.gallery img {
     max-width: 30vmax;
@@ -121,6 +133,96 @@ section.gallery {
     padding-bottom: 2vw;
 }
 
+/* About me page */
+header.about {
+    max-width: 35vmin;
+}
+
+section.background {
+    max-width: 700px;
+    min-width: 1vmin;
+    background-color: rgb(223, 223, 223);
+}
+
+section.background h2, h3, p, ul {
+    margin: 20px;
+}
+
+section.background figure {
+    border: 2pt solid black;
+    max-width: max-content;
+    text-align: center;
+    background-color: white;
+}
+
+section.background img {
+    max-width: 70vw;
+}
+
+section.workplace {
+    background-color: rgb(255, 225, 225);
+}
+
+section.workplace h2, p {
+    margin: 20px;
+}
+
+div.work-pictures {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-pictures figure {
+    border: 2pt solid black;
+    max-width: 50vmin;
+    text-align: center;
+    background-color: white;
+}
+
+.work-pictures img {
+    width: 50vmin;
+    border-bottom: 2pt solid black;
+}
+
+section.future {
+    border: 1pt solid black;
+    margin: 30px;
+    
+    text-align: center;
+}
+
+div.background-information {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 50px;
+}
+
+
+/* Contact Page*/
+header.contact {
+    max-width: 30vmin;
+}
+
+.get-in-touch {
+    font-size: 20pt;
+    margin: 70px;
+}
+
+section.contact {
+    margin-top: 50px;
+    margin-bottom: 300px;
+    max-width: fit-content;
+    font-size: 15pt;
+}
+
+.contact li {
+    margin: 15px;
+    padding: 15px;
+    list-style: none;
+    border: 1pt solid black;
+    background-color: rgb(255, 225, 225);
+}
 
 /* Footer */
 footer {
