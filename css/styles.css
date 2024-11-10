@@ -24,51 +24,7 @@ nav a {
     color: white;
 }
 
-/* Projects Page */
-section.gallery img {
-    max-width: 540px;
-}
-
-section.gallery figure {
-    text-align: center;
-    border: 3px solid black;
-    box-shadow: 10px 10px rgb(143, 143, 143);
-}
-
-section.gallery figcaption {
-    margin: 10px;
-}
-
-section.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-footer {
-    font-size: 14px;
-    color: white;
-    background-color:black;
-    padding-bottom: 1px;
-    padding-top: 1px;
-    padding-right: 10px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-footer p1 {
-    margin-right: 33vw;
-    margin-left: 2vw;
-}
-
-footer img {
-    max-width: 33px;
-    
-}
-
+/* Home page styling */
 section.feature-text h2 {
     font-family: "Kanit", serif;
     font-size: 6.5vmin;
@@ -125,4 +81,53 @@ div.line2 {
     padding: 10px;
     text-align: justify;
     font-size: 2vmin
+}
+
+/* Projects Page */
+section.gallery img {
+    max-width: 30vmax;
+    min-width: 430px;
+}
+
+section.gallery figure {
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 10px 10px rgb(143, 143, 143);
+    margin: 20px;
+}
+
+section.gallery figcaption {
+    margin: 10px;
+}
+
+section.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+/* Footer */
+footer {
+    font-size: 14px;
+    color: white;
+    background-color:black;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer p1 {
+    margin-right: 33vw;
+    margin-left: 2vw;
+}
+
+footer img {
+    max-width: 33px;
+    
 }
