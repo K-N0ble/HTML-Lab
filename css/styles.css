@@ -13,6 +13,7 @@ nav ul {
     margin-right: 5em;
     padding-top: 30px;
     font-size: 2vmin;
+    
 }
 
 nav a {
@@ -23,6 +24,7 @@ nav a {
     background-color: rgb(255, 94, 94);
     color: white;
 }
+
 
 /* Home page styling */
 section.feature-text h2 {
@@ -72,7 +74,7 @@ div.line2 {
     table-layout: fixed;
     width: 700px;
     font-size: 2vmax;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
 }
 
@@ -84,6 +86,12 @@ div.line2 {
 }
 
 /* Projects Page */
+header h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6vmin;
+    margin-top: 50px;
+}
+
 section.gallery img {
     max-width: 30vmax;
     min-width: 430px;
@@ -92,20 +100,25 @@ section.gallery img {
 section.gallery figure {
     text-align: center;
     border: 3px solid black;
-    box-shadow: 10px 10px rgb(143, 143, 143);
+    box-shadow: 10px 10px rgb(59, 59, 59);
     margin: 20px;
+    background-color: white;
 }
 
 section.gallery figcaption {
     margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section.gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: gray;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 
