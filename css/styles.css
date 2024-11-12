@@ -105,7 +105,7 @@ div.line2 {
 /* Projects Page */
 
 section.gallery img {
-    max-width: 30vmax;
+    max-width: 29vmax;
     min-width: 430px;
 }
 
@@ -139,7 +139,7 @@ header.about {
 }
 
 section.background {
-    max-width: 700px;
+    max-width: 650px;
     min-width: 1vmin;
     background-color: rgb(223, 223, 223);
 }
@@ -161,6 +161,7 @@ section.background img {
 
 section.workplace {
     background-color: rgb(255, 225, 225);
+    max-width: 750px;
 }
 
 section.workplace h2, p {
@@ -174,13 +175,13 @@ div.work-pictures {
 
 .work-pictures figure {
     border: 2pt solid black;
-    max-width: 50vmin;
+    max-width: 35vmin;
     text-align: center;
     background-color: white;
 }
 
 .work-pictures img {
-    width: 50vmin;
+    width: 35vmin;
     border-bottom: 2pt solid black;
 }
 
