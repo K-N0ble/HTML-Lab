@@ -53,7 +53,7 @@ section.feature-text h2 {
 section.feature-text {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    flex-direction: column;
     margin-left: 5vw;
     margin-right: 7vw;
     margin-top: 5vw;
@@ -76,9 +76,11 @@ div.line2 {
     
 }
 
-.profilepic figure {
+.profilepic img {
     box-shadow: 5px 5px black;
     margin-top: 3vmax;
+    width: 30vw;
+    max-width: 300px;
 }
 
 .indextable {
