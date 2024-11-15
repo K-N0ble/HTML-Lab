@@ -53,7 +53,7 @@ section.feature-text h2 {
 section.feature-text {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    align-items: flex-end;
     margin-left: 5vw;
     margin-right: 7vw;
     margin-top: 5vw;
@@ -63,6 +63,11 @@ section.feature-text {
     padding-top: 2vw;
     background-color: rgb(255, 170, 170); 
     
+}
+
+#greeting {
+    font-size: 20pt;
+    margin-bottom: 30px;
 }
 
 div.line1 {
