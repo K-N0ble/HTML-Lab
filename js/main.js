@@ -34,4 +34,19 @@ if (d.getHours() <= 11) {
 }
 
 
+//alert button
+const button = document.getElementById("btn-alert");
+button.onmouseover = function() {
+    button.innerHTML = "Hello!";
+    button.style.background = "gray";
+}
+button.onmouseout = function() {
+    button.innerHTML = "Click here!";
+    button.style.background = "rgb(40, 40, 40)";
+}
+
+button.addEventListener("click", () => {
+   alert("Hello there! :) ")
+})
+
 
